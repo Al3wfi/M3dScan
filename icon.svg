@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#F8F9FA" rx="128" />
+
+  <!-- Scanning Brackets (Light Grey) -->
+  <g fill="none" stroke="#C5C9D1" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Left -->
+    <path d="M 176 100 L 124 100 C 110.745 100 100 110.745 100 124 L 100 176" />
+    <!-- Top Right -->
+    <path d="M 336 100 L 388 100 C 401.255 100 412 110.745 412 124 L 412 176" />
+    <!-- Bottom Left -->
+    <path d="M 176 412 L 124 412 C 110.745 412 100 401.255 100 388 L 100 336" />
+    <!-- Bottom Right -->
+    <path d="M 336 412 L 388 412 C 401.255 412 412 401.255 412 388 L 412 336" />
+  </g>
+
+  <!-- Pill Shadow -->
+  <rect x="186" y="110" width="140" height="292" rx="70" fill="rgba(0,0,0,0.05)" />
+
+  <!-- Pill Top Half (Dark Blue) -->
+  <path d="M 186 256 L 186 180 C 186 141.34 217.34 110 256 110 C 294.66 110 326 141.34 326 180 L 326 256 Z" fill="#13213F" />
+  <!-- Pill Top Inner Highlight (Glassy reflection) -->
+  <path d="M 210 220 L 210 180 C 210 154.59 230.59 134 256 134" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Pill Bottom Half (Light Teal) -->
+  <path d="M 186 256 L 326 256 L 326 332 C 326 370.66 294.66 402 256 402 C 217.34 402 186 370.66 186 332 Z" fill="#8AC9BD" />
+  <!-- Pill Bottom Inner Highlight -->
+  <path d="M 302 292 L 302 332 C 302 357.41 281.41 378 256 378" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="12" stroke-linecap="round" />
+</svg>

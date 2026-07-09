@@ -1,0 +1,6 @@
+{
+  "name": "MedScan.",
+  "description": "تطبيق لالتقاط صور الأدوية واستخراج الاسم، التركيز، وتاريخ الانتهاء لتتبع الأدوية.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
